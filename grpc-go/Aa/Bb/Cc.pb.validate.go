@@ -62,6 +62,7 @@ func (m *HealthcheckRequest) validate(all bool) error {
 	if len(errors) > 0 {
 		return HealthcheckRequestMultiError(errors)
 	}
+
 	return nil
 }
 
@@ -165,6 +166,7 @@ func (m *HealthcheckResponse) validate(all bool) error {
 	if len(errors) > 0 {
 		return HealthcheckResponseMultiError(errors)
 	}
+
 	return nil
 }
 
@@ -277,6 +279,7 @@ func (m *HelloRequest) validate(all bool) error {
 	if len(errors) > 0 {
 		return HelloRequestMultiError(errors)
 	}
+
 	return nil
 }
 
@@ -379,6 +382,7 @@ func (m *HelloReply) validate(all bool) error {
 	if len(errors) > 0 {
 		return HelloReplyMultiError(errors)
 	}
+
 	return nil
 }
 
